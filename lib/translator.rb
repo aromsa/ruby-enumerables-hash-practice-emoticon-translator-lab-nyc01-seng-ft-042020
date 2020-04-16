@@ -17,7 +17,11 @@ def load_library (file)
 end
 
   
-  
+
+def get_japanese_emoticon
+  # code goes here
+end
+
 #   def nyc_pigeon_organizer(data)
 #   names_hash = {}
 #   data.each do |key, value|
@@ -35,11 +39,9 @@ end
 #   end
 #   names_hash
 # end
-  
 
-def get_japanese_emoticon
-  # code goes here
-end
+
+
 
 def get_english_meaning
   # code goes here
