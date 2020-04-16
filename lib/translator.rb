@@ -15,7 +15,7 @@ def load_library (file)
   emoticon_names
 end
 
-def get_english_meaning(file,emoticon)
+def get_english_meaning(file, emoticon)
   emoticons = load_library(file)
   if emoticon
 end
