@@ -22,7 +22,7 @@ def get_japanese_emoticon(file)
     binding.pry
     emoticon_japanese[key] = {}
     emoticon_japanese[key] = emos[0]
-    binding.pry
+    #binding.pry
     emoticon_names[key][:japanese] = emos[1]
   end
   emoticon_names
