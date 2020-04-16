@@ -21,11 +21,6 @@ end
 
 def get_japanese_emoticon(file, emoticon)
   emoticons = load_library(file)
-  emoticon_japanese = {}
   binding.pry
-  emoticons.each do |key, emos|
-    emoticon_japanese[key] = {}
-    emoticon_japanese[emos[1]] = emos[0]
-  end
-  emoticon_japanese
+
 end
