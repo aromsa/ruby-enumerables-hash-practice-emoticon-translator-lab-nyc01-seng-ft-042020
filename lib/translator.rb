@@ -18,6 +18,7 @@ end
 def get_english_meaning(file, emoticon)
   emoticons = load_library(file)
   #japanese = [key][:japanese][emo]
+  binding.pry
   if emoticon = [:english]
     puts [:japanese]
   end
