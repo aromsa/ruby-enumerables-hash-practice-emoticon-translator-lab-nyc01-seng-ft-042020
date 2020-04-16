@@ -19,12 +19,12 @@ def get_japanese_emoticon (file)
   emoticons = YAML.load_file(file)
   emoticon_japanese = {}
   emoticons.each do |key, emos|
-  #   emoticon_japanese[key] = {}
-  #   emoticon_japanese[key] = emos[0]
-  #   #binding.pry
-  #   emoticon_names[key][:japanese] = emos[1]
-  # end
-  # emoticon_names
+    emoticon_japanese[key] = {}
+    emoticon_japanese[key] = emos[0]
+    #binding.pry
+    emoticon_names[key][:japanese] = emos[1]
+  end
+  emoticon_names
 end
 
 #   def nyc_pigeon_organizer(data)
