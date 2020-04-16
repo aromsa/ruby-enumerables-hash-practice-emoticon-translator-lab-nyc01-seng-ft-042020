@@ -21,8 +21,6 @@ def get_japanese_emoticon(data)
   emoticons.each do |key, emos|
     emoticon_japanese[key] = {}
     emoticon_japanese[key] = emos[0]
-    #binding.pry
-    emoticon_names[key][:japanese] = emos[1]
   end
   emoticon_japanese
 end
