@@ -20,6 +20,7 @@ def get_english_meaning(file, emoticon)
   #japanese = [key][:japanese][emo]
   if emoticon = [:english]
     puts [:japanese]
+  end
 end
 
 def get_japanese_emoticon(file, emoticon)
