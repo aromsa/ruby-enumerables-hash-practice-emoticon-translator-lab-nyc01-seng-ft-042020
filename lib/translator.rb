@@ -18,8 +18,8 @@ end
 def get_japanese_emoticon(file)
   emoticons = YAML.load_file(file)
   emoticon_japanese = {}
+  binding.pry
   emoticons.each do |key, emos|
-    binding.pry
     emoticon_japanese[key] = {}
     emoticon_japanese[key] = emos[0]
     #binding.pry
