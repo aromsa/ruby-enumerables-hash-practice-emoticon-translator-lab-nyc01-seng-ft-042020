@@ -20,7 +20,7 @@ def get_english_meaning(file, emoticon)
   emoticons.each do |key, emos|
     binding.pry
   if emos = emoticon
-    puts [:english]
+    puts [key]
   end
   end
 end
