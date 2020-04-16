@@ -8,6 +8,7 @@ def load_library (file)
   emoticons = YAML.load_file(file)
   emoticon_names = {}
   emoticons.each do |key, emos|
+    binding.pry
     emos.each do |emo|
       # emoticon_names[:english] = emo[0]
       # emoticon_names[:japanese] = emo[1]
