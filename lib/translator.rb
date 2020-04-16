@@ -16,7 +16,6 @@ def load_library (file)
 end
 # binding.pry
 emoticon_names
-end
 
 
   #return a hash {name of emoticon => {english: , japanese:}}
