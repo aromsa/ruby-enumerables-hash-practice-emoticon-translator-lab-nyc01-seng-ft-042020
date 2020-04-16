@@ -15,7 +15,7 @@ def load_library (file)
   emoticon_names
 end
 
-def get_japanese_emoticon(file)
+def get_japanese_emoticon(file, emoticon)
   emoticons = load_library(file)
   emoticon_japanese = {}
   emoticons.each do |key, emos|
