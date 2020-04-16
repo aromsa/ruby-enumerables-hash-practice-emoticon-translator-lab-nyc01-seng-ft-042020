@@ -16,10 +16,10 @@ def load_library (file)
 end
 
 def get_japanese_emoticon(data)
-  #traslator_j = YAML.load_library(data)
+  translator_j = YAML.load_library(data)
   emoticon_japanese = {}
   binding.pry
-  emoticons.each do |key, emos|
+  translator_j.each do |key, emos|
     emoticon_japanese[key] = {}
     emoticon_japanese[key] = emos[0]
   end
