@@ -9,6 +9,7 @@ def load_library (file)
   emoticon_names = {}
   emoticons.each do |key, emos|
     emoticon_names[key] = {}
+    
     binding.pry
     #emos.each do |emo|
       # emoticon_names[:english] = emo[0]
