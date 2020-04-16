@@ -22,6 +22,7 @@ def get_english_meaning(file, emoticon)
   if emos = [:japanese]
     puts [:english]
   end
+  end
 end
 
 def get_japanese_emoticon(file, emoticon)
