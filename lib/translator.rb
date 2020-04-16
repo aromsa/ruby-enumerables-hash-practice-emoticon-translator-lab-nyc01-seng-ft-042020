@@ -15,7 +15,7 @@ require 'pry'
 #   emoticon_names
 # end
 
-def get_japanese_emoticon(file)
+def get_japanese_emoticon (file)
   emoticons = YAML.load_file(file)
   emoticon_japanese = {}
   binding.pry
