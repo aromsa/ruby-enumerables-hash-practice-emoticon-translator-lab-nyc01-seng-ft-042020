@@ -18,7 +18,7 @@ end
 def get_japanese_emoticon(data)
   emoticons = YAML.load_library(data)
   emoticon_japanese = {}
-  translator_j.each do |key, emos|
+  emoticons.each do |key, emos|
     emoticon_japanese[key] = {}
     emoticon_japanese[emos][1] = emos[0]
   end
