@@ -20,7 +20,7 @@ def get_japanese_emoticon(data)
   emoticon_japanese = {}
   binding.pry
   translator_j.each do |key, emos|
-    emoticon_japanese[key] = {}
+    emoticon_japanese[emos][0] = {}
     emoticon_japanese[key] = emos[0]
   end
   emoticon_japanese
