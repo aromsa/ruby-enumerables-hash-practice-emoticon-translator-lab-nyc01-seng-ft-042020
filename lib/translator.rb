@@ -16,11 +16,11 @@ def load_library (file)
       # emoticon_names[:english] = emo[0]
       # emoticon_names[:japanese] = emo[1]
       #if !emoticon_names[emo][0]
-      emoticon_names[emo] = {}
+      #emoticon_names[emo] = {}
       #emoticon_names[:english] = emo
      #end
      #if !emoticon_names[emo][1]
-       emoticon_names[emo] = {}
+       #emoticon_names[emo] = {}
        #emoticon_names[:japanese] = emo
   end
 end
