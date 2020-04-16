@@ -19,7 +19,7 @@ def get_japanese_emoticon(data)
   emoticons = YAML.load_library(data)
   emoticon_japanese = {}
   emoticons.each do |key, emos|
-    #emoticon_japanese[key] = {}
+    emoticon_japanese[key] = {}
     emoticon_japanese[emos[1]] = emos[0]
   end
   emoticon_japanese
