@@ -19,7 +19,7 @@ def get_english_meaning(file, emoticon)
   emoticons = load_library(file)
   emoticons.each do |key, emos|
     binding.pry
-  if emos =+ emoticon
+  if emos == emoticon
     puts [key]
   end
   end
