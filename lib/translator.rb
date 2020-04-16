@@ -23,6 +23,7 @@ def get_japanese_emoticon(file)
   emoticons.each do |key, emos|
     emoticon_names[key] = {}
     emoticon_names[key] = emos[0]
+    binding.pry
     emoticon_names[key][:japanese] = emos[1]
   end
   emoticon_names
