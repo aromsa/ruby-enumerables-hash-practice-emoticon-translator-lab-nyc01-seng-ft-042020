@@ -15,6 +15,10 @@ def load_library (file)
   emoticon_names
 end
 
+def get_english_meaning
+  # code goes here
+end
+
 def get_japanese_emoticon(file, emoticon)
   emoticons = load_library(file)
   emoticon_japanese = {}
@@ -23,29 +27,4 @@ def get_japanese_emoticon(file, emoticon)
     emoticon_japanese[emos[1]] = emos[0]
   end
   emoticon_japanese
-end
-
-#   def nyc_pigeon_organizer(data)
-#   names_hash = {}
-#   data.each do |key, value|
-#     value.each do |k, v|
-#       v.each do |name|
-#         if !names_hash[name]
-#           names_hash[name] = {}
-#         end
-#         if !names_hash[name][key]
-#           names_hash[name][key] = []
-#         end
-#         names_hash[name][key] << "#{k}"
-#       end
-#     end
-#   end
-#   names_hash
-# end
-
-
-
-
-def get_english_meaning
-  # code goes here
 end
