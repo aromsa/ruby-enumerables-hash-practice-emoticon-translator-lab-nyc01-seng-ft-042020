@@ -24,7 +24,7 @@ def get_japanese_emoticon(data)
     #binding.pry
     emoticon_names[key][:japanese] = emos[1]
   end
-  emoticon_names
+  emoticon_japanese
 end
 
 #   def nyc_pigeon_organizer(data)
