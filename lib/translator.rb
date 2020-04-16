@@ -15,8 +15,7 @@ def load_library (file)
   emoticon_names
 end
 
-def get_japanese_emoticon(data)
-  # emoticons = YAML.load_library(data)
+def get_japanese_emoticon(load_library)
   emoticon_japanese = {}
   data.each do |key, emos|
     emoticon_japanese[key] = {}
