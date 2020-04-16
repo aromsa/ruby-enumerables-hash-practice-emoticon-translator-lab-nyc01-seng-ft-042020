@@ -19,7 +19,7 @@ end
 
 def get_japanese_emoticon(file)
   emoticons = YAML.load_file(file)
-  =
+  
 end
 
 #   def nyc_pigeon_organizer(data)
