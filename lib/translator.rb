@@ -9,17 +9,16 @@ def load_library (file)
   emoticon_names = {}
   emoticons.each do |key, emos|
     binding.pry
-    emos.each do |emo|
+    #emos.each do |emo|
       # emoticon_names[:english] = emo[0]
       # emoticon_names[:japanese] = emo[1]
-      if !emoticon_names[emo][0]
+      #if !emoticon_names[emo][0]
       emoticon_names[emo] = {}
       #emoticon_names[:english] = emo
-     end
-     if !emoticon_names[emo][1]
+     #end
+     #if !emoticon_names[emo][1]
        emoticon_names[emo] = {}
        #emoticon_names[:japanese] = emo
-     end
   end
 end
 # binding.pry
