@@ -20,6 +20,7 @@ def get_english_meaning(file, emoticon)
   emoticons.each do |key, emos|
     #binding.pry
   if emos == emoticon
+    binding.pry
     return key
   end
   end
