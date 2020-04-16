@@ -18,6 +18,7 @@ end
 def get_english_meaning(file, emoticon)
   emoticons = load_library(file)
   emoticons.each do |key, emos|
+    binding.pry
   if emos = [:japanese]
     puts [:english]
   end
