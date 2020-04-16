@@ -15,8 +15,6 @@ def load_library (file)
   emoticon_names
 end
 
-  
-
 def get_japanese_emoticon(file)
   emoticons = YAML.load_file(file)
   emoticon_japanese = {}
