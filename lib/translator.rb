@@ -16,9 +16,6 @@ def load_library (file)
   emoticon_names
 end
 
-
-
-  #return a hash {name of emoticon => {english: , japanese:}}
   
   
 #   def nyc_pigeon_organizer(data)
