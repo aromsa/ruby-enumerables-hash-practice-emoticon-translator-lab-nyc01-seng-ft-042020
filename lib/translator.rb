@@ -5,9 +5,9 @@ require 'pry'
 
 
 def load_library (file)
-  #emoticons = YAML.load_file(file)
+  emoticons = YAML.load_file(file)
   emoticon_names = {}
-  file.each do |key, emos|
+  emoticons.each do |key, emos|
     emoticon_names[key] = {}
     emoticon_names[key][:english] = emos[0]
     emoticon_names[key][:japanese] = emos[1]
