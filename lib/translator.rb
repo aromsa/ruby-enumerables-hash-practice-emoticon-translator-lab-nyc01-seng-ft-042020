@@ -15,7 +15,6 @@ def load_library (file)
   end
   emoticon_names
 end
-# binding.pry
 
 
 
